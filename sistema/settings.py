@@ -90,7 +90,7 @@ WSGI_APPLICATION = 'sistema.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-
+"""
 #BASE DE DATOS MySQL
 DATABASES = {
     #Cambiamos el nombre de nuestra base de datos que sera mysql
@@ -104,9 +104,10 @@ DATABASES = {
         'PORT': '3306'
     }
 }
+"""
 
 #----------------------------------------------------
-"""
+
 #BASE DE DATOS POSTGRESQL
 DATABASES = {
     #Cambiamos el nombre de nuestra base de datos que sera mysql
@@ -120,7 +121,7 @@ DATABASES = {
         'PORT': '5432'
     }
 }
-"""
+
 #-----------------------------------------
 """
 #BASE DE DATOS SQLITE3
